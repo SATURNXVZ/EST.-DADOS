@@ -1,0 +1,37 @@
+ESTRUTURAS DE DADOS
+
+AVALIAÇÕES:
+A1 é a mesma coisa;
+A2 terá projeto valendo mais que o semestre anterior, e será mais criterioso em relação à autyoria do código, sendo sem consulta e sem acesso a internet (dia 30/04);
+A2 terá defesa de código em grupo com apresentação à sala, o tema será teoria de gráficos, grafos e busca em grafos (dia /05); 
+
+PESQUISAR SOBRE GRAFOS, E REFORÇAR RECURSÃO, ALOCAÇÃO DE MEMÓRIA, FETCH E PONTEIROS;
+
+Estruturas de dados visa, listas, filas, pilhas e grafos;
+
+CONTEÚDOS:
+Revisão de busca sequencial e binária;
+Revisão de métodos de ordenação;
+Lista encadeadas, lista circulares e listas duplamente encadeadas;
+Fila e pilha;
+Grafos;
+Busca em largura e profundidade;
+
+MÉTODOS DE BUSCA (REVISÃO):
+SEQUENCIAL: Sendo de forma linear, sem necessidade de ordenação, pesquisando de qualquer forma, mas usa muita força computacional;
+Busca dentro de um conjunto de dados, como uma pesquisa, sendo linear, ou seja, ela percorre toda a lista, aonde custa muito;
+Tem custo n/2, o que é um custo não muito bom, sem se ligar à eficiência;
+Para isso, precisa de uma chave de busca, sendo como literalmente uma chave, ou seja, o dado pelo qual precisa, ex:(cpf, rg, rgm);
+O retorno deve ser um tipo de mensagem ou aviso se foi encontrado tal dado usando a chave de busca ou não;
+Sempre é usada uma função que receberá a lista e a chave;
+A busca baseia-se na posição, ele diz a posição em que a chave se encontra, não o valor dela;
+
+BINÁRIA: é de forma logaritmica, o qual é muito menos custoso;
+Necessita de lista ordenada;
+Compara um valor com o central;
+Se for igual retorna a posição, menor repete com a metade inferior, maior repete com a metade superior;
+Termina caso encontre o elemento ou reduza a lista a zero;
+
+
+
+
