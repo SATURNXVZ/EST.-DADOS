@@ -1,1 +1,65 @@
+VEJA PROGRAMAÇÃO DESCOMPLICADA;
+
+
+As estruturas são:
+PILHAS
+FILAS
+LISTAS(Mais difíceis);
+ÁRVORES;
+
+Até o momento, vimos matrizes e vetores, além de ponteiros, manuseio de indices;
+Essas Estruturas dão mais possibilidades do que matriz e vetores, facilitando e aumentando a capacidade de manuseio;
+Todas as estruturas são dinâmicas, permitindo manuseio, alteração, exclusão enquanto o "código roda", sendo totalmente flexíveis;
+A diferença é: Para que cada uma serve?
+São diferentes, contanto serão difíceis;
+
+PILHAS(STACK):
+2 objetivos:
+Inserir e Remover;
+
+O qual necessitará de funções a mais, como por exemplo criar o tamanho, consultar o qual será inserido ou excluido;
+
+É Linear, como recursividade;
+
+O principal escopo de controle, é o topo da pilha, o pico da montanha, observe o de cima, pois por esse topo acessarei os demais;
+"O primeiro elemento será o último";
+
+Idealize uma pilha de pratos, livros ou até tijolos, você manuseia o de cima, para então o resto;
+
+IMPLEMENTAÇÃO DE ELEMENTOS:
+Usa PUSH();
+PUSH não tem restrição para dados, ou seja, recebe qualquer tipo;
+Ao invés de apontar para o top, começará a apontar para tal elemento
+
+REMOÇÃO DE ELEMENTOS:
+Usa POP();
+Fique atento quanto ao tipo;
+
+ANALISE DE ELEMENTOS:
+Usa PEEK();
+Analisa qual é o ultimo elemento da Pilha
+
+EXCLUSÃO DE TODA A PILHA:
+clean();
+Exclui toda a pilha;
+
+TAMANHO DA PILHA:
+SIZE();
+Diz qual o tamanho, somente;
+
+LISTAR ELEMENTOS DA PILHA:
+LIST();
+Apenas lista os elementos da pilha;
+
+EX:
+criarPilha(5);     
+push(a);      adiciona o valor a no topo, que é 0;
+push(b);      Adiciona o valor B no topo, que é 1, (subiu graças ao push);
+push(c);      Adiciona o valor C no topo, que é 2;
+x = peek();   retorna o topo;
+x = pop();    Tira o valor que foi indicado por peek, no caso era o topo 2, ou seja, o c foi excluído, e o topo agora é 1;
+
+
+
+
 
