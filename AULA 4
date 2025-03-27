@@ -1,0 +1,25 @@
+ACESSE LINGUAGEM DESCOMPLICADA NO WORDPRESS;
+
+Como fazer pilha usando struct? simples, aplenas implemente o typedef e crie a estrutura de struct, após isso, apenas crie uma variavel pilha do tipo struct, ex:
+typedef struct{
+  int idade
+} ExStruct;   
+
+ExStruct pilha[tamanho];
+
+
+Como fazer pilha de struct usando ponteiros?
+Crie um elemento primitivo (elemento inicial, usado para entrar dentro da struct pilha que você irá criar);
+Crie a struct principal, que receberá a primeira estruct, ou seja, o primitivo;
+Na primeira struct, crie outro ponteiro, do tipo struct que irá para o próximo elemento;
+
+Segunda Struct será a lista em si, aonde ela criará um ponteiro tipo struct que apontará para o topo, ou início;
+e uma varoavel que indicará o tamanho;
+
+Crie uma função construtora, ou seja, uma função que ira inicializar o ponteiro topo/inicio como NULL;
+E a variavel tamanho = 0;
+
+No Main, crie uma pilha do tipo da segunda struct;
+Após isso, crie uma string auxiliar e um contador qualquer;
+
+
