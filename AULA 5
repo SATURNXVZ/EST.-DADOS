@@ -1,0 +1,37 @@
+FILAS
+Acesso é feito somente por um lado;
+Em pilhas, empilhamos por um lado, ao desempilhar, o mesmo, igualmente na fila;
+ou seja:
+O acesso da fila é feito por um lado (ainda);
+
+É uma fila linear, como literalmente uma fila, recebe inserções por um lado, e retira por outro lado, diferente da pilha;
+Da mesma forma que uma fila comum, você chega na ponta final(inserção), e o atendimento está na outra ponta(retirada);
+
+ENTRA POR UM LADO, SAI POR OUTRO;
+
+O mais novo sempre estará na cauda, e o mais velho estará na cabeça da fila, ex:
+NOVO(cauda), recente, médio, ANTIGO(cabeça);
+
+FIFO: First in, First out;
+
+O último elemento é deslocado para a próxima posição, igual uma cobrinha, ao comer a maça;
+
+enqueue(x): adicionar elemento no final da fila(cauda);
+x = dequeue(): remove o elemento no começo da fila(cabeça);
+x = peek(): visualiza elemento do inicio da fila, sem movimentar;
+
+existe Fila vazia;
+existe Fila cheia(se for dinâmica, não existirá);
+Existe possibilidade de visualizar os elementos da sua fila, como se fosse SIZE;
+
+ENQUEUE(valor):
+Verifique se a fila não está cheia;
+Inserir elementos na cauda;
+Avançar a cauda;
+
+DEQUEUE():
+Verifica se a fila não está vazia;
+Armazena o elemento da cabeça;
+reposicionar os elementos uma casa antes;
+retornar o elemento armazenado;
+
