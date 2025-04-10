@@ -1,1 +1,14 @@
+FILA 
+Estática: tamanho definido;
 
+ao ser criada uma estática, a cauda e a cabeça estarão apontando para o mesmo local, segue os passos:
+
+DEQUEUE
+1. Criar a fila;
+2. enqueue(valor): teste a fila para ver se não está cheia, se não estiver, inserir elemento na CAUDA, e então, movimentar a cuada;
+
+Ao encher a fila, se retirarmos o valor da cabeça, o que acontecerá com o resto da fila? 
+ESTÁTICA: nada;
+DINÂMICA: OS valorees se deslocam dinamicamente, usando alocação de memória;
+
+Para retirar, dar Dequeue, é retirado o valor da cabeça, pois, "First in, First out";
