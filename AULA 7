@@ -1,0 +1,43 @@
+LISTAS:
+Permite tirar elementos do inicio, meio, ou fim;
+Por isso, é mais complicado que Pilha e Fila, por ter a liberdade de alterar elementos em qualquer ponto dela;
+
+PROVA DIA 7!!
+CONTEUDOS: PILHA, FILA E LISTA;
+
+LISTAS ENCADEADAS(ou LISTAS):
+Sequencia de elementos do mesmo tipo, ou de outros, como uma Struct;
+Os elementos podem se repetir, ou não, e estarem ordenados, ou não;
+
+Lembre-se4 da lista como um Nó, aonde cada nó tem um elemento de struct, aonde cada elemento é composto de duas partes:
+Informação (dado);
+Referência para o próximo;
+
+Ou seja, pode-se trabalhar com listas estáticas, como as de vetores, aonde o recurso computacional é enorme, diferente da dinâmica, aonde o ponteiro faz a diferença;
+
+As listas podem ser N >= 0, ou N = 0; 
+Toda lista, precisa ser verificadsa se contém elementos ou não;
+
+Na lista, precisamos verificar os 2 lados, pois, ela pode ser acessada por qualquer lado/ponta;
+
+Lista é mais dinamica que pilha e fila, mas é mais dificl de entender;
+
+É usada em banco de alunos, funcionários, produtos, voos, qualquer coisa que tenha a ver com listas;
+
+Os elementos podem ser inseridos e removidos com muita facilidade por causa dos Ponteiros;
+
+A desvantagem de listas é que precisamos percorrer toda a lista procurando o elemento que quero;          
+
+LISTA ESTÁTICA:
+Simples;
+Recurso computacional enorme;
+Acesso sequencial (vetor);
+
+LISTA DINÂMICA:
+Complexa;
+Recurso computacional menor;
+
+
+
+
+
