@@ -37,6 +37,11 @@ LISTA DINÂMICA:
 Complexa;
 Recurso computacional menor;
 
+COMO FAZER:
+O inicio aponta para o primeiro;
+Ponteiro aponta para o próximo;
+No final o ponteiro aponta para NULL:
+
 
 
 
