@@ -1,1 +1,42 @@
+GRAFOS:
+
+Ao utilizar o Uber, ao procurar uma rotya, usamos um grafo naquele app, pois, ele busc a rotas, busca maneiras de chegar aos ponbtos, yusando arestas menores, ou  seja, o caminho mais rápdio, a solução;
+IAs também utilizam grafos;
+Voo também utiliza rota, ou seja, grafos;
+
+Tudo que usa rotas, caminhos, usará GRAFOS;
+GRAFO se assemelha a neurõnios, de forma gráfica;
+
+O QUE SÂO?
+Estruturas matemáticas que se relacionam ENTRE PARES;
+  
+  Os objetos que temos, são nós/vértices;
+
+  Os relacionamentos entre os pontos, é chamado de ARESTA;
+
+Para que serve?
+Redes de computador, mapas, redes sociais, sistemas de navegação e entre classes, módulos e serviços;
+WEB, IA, Banco e Ciencia de dados e Machine Learning;
+
+(grafos é um ótimo caminho para TCC);  
+
+Um grafo é um conjunto de vertices e arestas;
+Aonde Vértices é um conjunto não nulo/vazio;
+Arestas é o conjunto que conecta as vértices;
+
+ARESTAS:
+Composta por 2 vértices, pois é ela que conecta;
+
+GRAFOS DIRECIONADOS:
+Sempre com seta;
+Dizem para aonde vão;
+São chamados de grafos dirigidos ou DÍGRAFOS;
+O caminho leva até a ponta da flecha;
+
+GRAFO NÃO-DIRECIONADO:
+Não usa seta;
+Rua de mão dupla;
+Existe conexão mútua entre 2 vértices;
+Arestas bi-direcionais;
+
 
