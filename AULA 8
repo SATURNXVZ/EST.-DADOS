@@ -1,5 +1,4 @@
 GRAFOS:
-
 Ao utilizar o Uber, ao procurar uma rotya, usamos um grafo naquele app, pois, ele busc a rotas, busca maneiras de chegar aos ponbtos, yusando arestas menores, ou  seja, o caminho mais rápdio, a solução;
 IAs também utilizam grafos;
 Voo também utiliza rota, ou seja, grafos;
@@ -32,6 +31,8 @@ Sempre com seta;
 Dizem para aonde vão;
 São chamados de grafos dirigidos ou DÍGRAFOS;
 O caminho leva até a ponta da flecha;
+Arco é chamado as arestas do grafo Dirigido;
+
 
 GRAFO NÃO-DIRECIONADO:
 Não usa seta;
@@ -39,4 +40,15 @@ Rua de mão dupla;
 Existe conexão mútua entre 2 vértices;
 Arestas bi-direcionais;
 
+em arestas de grafo não dirigido, os pares (A e B) e (B e A) são a mesma;
+Em grafos ordenados, (A e B) e (B e A) são diferentes;
 
+MULTIGRAFO:
+Grafo que tem mais de 1 aresta ligando os mesmos dois vértices;
+Este grafo tem arestas paralelas/múltiplas;
+Ele imita um "loop";
+Grafo simples não tem aresta múltipla;
+
+!TENHA CERTEZA DE QUE SEU CÓDIGO NÃO CAIRÁ NO LOOP, SENDO MULTIGRAFO OU GRAFO NÃO DIRECIONADO!
+
+  
