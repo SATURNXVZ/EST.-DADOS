@@ -51,4 +51,26 @@ Grafo simples não tem aresta múltipla;
 
 !TENHA CERTEZA DE QUE SEU CÓDIGO NÃO CAIRÁ NO LOOP, SENDO MULTIGRAFO OU GRAFO NÃO DIRECIONADO!
 
-  
+VÉRTICE ADJACENTE:
+São vizinhos/adjacentes quando eles forem os extremos da mesma aresta;
+Ou seja, os que estão nas pontas da mesma aresta, são adjacentes/vizinhos;
+Não podemos passar direto do ponto A até o C, sem passar pelo B; se você puder passar, então ele sera um vértice adjacente;
+
+GRAFO COMPLETO:
+Grafo que não tem nenhum ponto sobrando;
+Não tem nenhum elemento que não se conecta com outro;
+Se conecta por 1 aresta em cada elemento;
+K(n) aonde n são a quantidade de vértices;
+DEVE SE CONECTAR 1 ARESTA POR ELEMENTO;
+N TOTAL DE ARESTAS: n*(n-1)/2;
+
+GRAU DE GRAFO:
+Corresponde o número de vértices incidentes às arestas, ex:
+d(v(6)) = 0;
+Aonde, d(v) siginifica as vértice;
+O resultado é o GRAU, o que sai do d(v);
+
+GRAFO VALORADO/PONDERADO:
+Cada aresta tem valor, chamado de custo/peso;
+Esse valor pode representar diferentes medidas, dependendo do contexto;
+
